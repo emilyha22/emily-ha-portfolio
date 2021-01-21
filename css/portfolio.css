@@ -1,7 +1,8 @@
 /*======== navbar ========*/
 body{
     overflow-y: scroll;
-overflow-x: hidden;
+max-width: 100%;
+    overflow-x: hidden;
 }
 
 .nav-item a{
