@@ -14,8 +14,6 @@
     
     <!-- CSS-->
     <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/work.css">
-    <link rel="stylesheet" href="css/interior-work.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -23,7 +21,7 @@
     <script type="text/javascript" src="jquery.lettering.js"></script>
     <script type="text/javascript" src="circletype.min.js"></script>
 
-    <title>Emily Ha - Work</title>
+    <title>Emily Ha</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -49,34 +47,41 @@
       </div>
     </nav>
 
-    <section class="interior-header container">
-        <img class="" src="img/dx-img.png">
-        <h1>Digital Experience Group Website</h1>
-        <a href="https://dxgroup.core.uconn.edu/" class="btn-main">View Website</a>
-    </section>
-
-    <section class="focus container-fluid">
-        <div class="row justify-content-center">
-            <div class="focus-sec col-md-3">
-                <img class="focus-img" src="img/responsive.png">
-                <h3>Responsive Web Design</h3>
-            </div>
-            <div class="focus-sec col-md-3">
-                <img class="focus-img" src="img/accessibility.png">
-                <h3>Web Accessibility</h3>
-            </div>
-            <div class="focus-sec col-md-3">
-                <img class="focus-img" src="img/code.png">
-                <h3>HTML, CSS, & Javascript</h3>
-            </div>
+    <section class="form container-fluid">
+      <div class="flex">
+        <div class="form-text col-md-5"> 
+          <h1>Lets<span><img src="img/light-Smile.png"></span></h1>
+          <h1>Get in Touch!</h1>
+          <a class="wavy" href="mailto:emilyyha222gmail.com">emilyyha22@gmail.com</a>
         </div>
+        <div class="col-md-7">
+          <form action="https://formspree.io/emilyyha22@gmail.com" method="POST">
+            <div class="row">
+              <div class="col">
+                <input class="name" name="_fname" />
+                <br>
+                <label>First Name</label>
+              </div>
+              <div class="col">
+                <input class="name" name="_lname" />
+                <br>
+                <label>Last Name</label>
+              </div>
+            </div>
+            <br>
+            <input type="email" name="_replyto">
+            <br>
+            <label>Your email</label>
+            <br>
+            <textarea name="message" ></textarea>
+            <br>
+            <label>Your message</label>
+            <br>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </section>
-
-    <section class="interior-block container">
-        <h3>Why this project?</h3>
-        <p>This website was made to display the Digital Experience Group’s services in UX/UI Design, App Development, User Research, and Technological Innovations. After submitting four design mockups, I was able to go ahead with this design and code it in HTML, CSS, and Javascript. While turning this design into a live website, my main concern and focus was making it responsive. I was able to accomplish this by using the CSS framework Boostrap.</p>
-    </section>
-
 
     <section class="footer">
       <p>Coded and Designed by Emily Ha</p>
