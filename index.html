@@ -5,12 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/77acf96f91.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- CSS-->
     <link rel="stylesheet" href="css/portfolio.css">
@@ -35,89 +40,151 @@
             <button class="nav-btn"><a class="nav-link" href="index.html">Home</a></button>
           </li>
           <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="work.html">Work</a></button>
+            <button class="nav-btn"><a class="nav-link" href="projects.html">Projects</a></button>
           </li>
           <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="resume.html">Resume</a></button>
+            <button class="nav-btn"><a class="nav-link" href="experience.html">Experience</a></button>
           </li>
           <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="contact.html">Contact Me</a></button>
+            <button class="nav-btn"><a class="nav-link" href="#contact">Contact</a></button>
           </li>
         </ul>
       </div>
     </nav>
 
-    <section class="header container-fluid">
-      <div class="flex row">
-        <div class="col-md-5 header-img" >
+        <!-- Back to top button -->
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+          <i class="fas fa-arrow-up"></i>
+          </button>
 
-            <img src="img/ha.png" data-aos="fade-right" data-aos-duration="1000"  data-aos-delay="200">
-          
-        </div>
-        <div id="background"></div>
-        
-        <div id="dot"><img src="img/dot-grid.png"></div>
-        <div class="col-md-7 header-text" data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="600">
+    <section class="header container">
+      <div class="row">
+        <div class="col-md-9 header-text" data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="600">
           <h1>Hi my name is Emily! I’m a <span class="pink">UX/Web Designer</span></h1>
+          <div id="text">Scroll to View More - &nbsp;</div>
+          <script>
+            new CircleType(document.getElementById('text'));
+          </script>
         </div>
       </div>
-      <div id="text" data-aos="fade-up" data-aos-delay="500" >Scroll to View More - &nbsp;</div>
-      <script>
-        new CircleType(document.getElementById('text'));
-      </script>
     </section>
 
     <section class="blurb container" data-aos="fade-up" data-aos-duration="1000"> 
       <div class="flex">
-        <h2>A little about me<span><img src="img/Smile.png"></span></h2>
+        <h2>About Me</h2>
       </div>
       <div class="blurb-box">
-        <p>I am an aspiring <span class="blue-hili">User Experience Designer</span> studying web and interactive media at the University of Connecticut. It is my passion to design not only visually appealing but functional designs that can be used everyday and efficiently.</p>
+        <p>I am a <span class="blue-hili">User Experience Designer</span> studying web and interactive media at the University of Connecticut. It is my passion to design not only visually appealing but functional designs that can be used everyday and efficiently.</p>
       </div>
     </section>
 
-    <section class="skill container">
-      <div class="flex">
-        <h2 class="col-md-3">What are my <span class="blue-hili">skills?</span></h2>
-        <div class="skill-box col-md-3" data-aos="zoom-in" data-aos-duration="500">
-          <img src="img/code.png">
-          <h3>Coding</h3>
-          <p>Knowledgable in HTML/CSS and a background in various programming languages</p>
+
+    <!-- Display grid on mobile-->
+    <section class="mobile-grid">
+    <div class="container-fluid displaynone">
+      <h2 class="left"><span>Featured Projects</span></h2>
+      <div class="row g-0">
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 previewimage">
+              <div class="backgroundinteraction2">
+                  <video autoplay="" loop="" muted="" playsinline="">
+                      <source src="img/sdsi.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 previewimage" id="backgroundinteraction1">
+              <div class="backgroundinteraction1">
+                  <video autoplay="" loop="" muted="" playsinline="">
+                      <source src="img/eco-life.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 previewimage"><div class="backgroundinteraction7"><img src="img/flowershop-placeholder-mobile.png"></div></div>   
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 previewimage"><div class="backgroundinteraction6"><img src="img/dx-group-mobile.png"></div></div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-4 previewimage">
+            <div class="backgroundinteraction3">
+                <video autoplay="" loop="" muted="" playsinline="">
+                    <source src="img/designhelp.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
-        <div class="skill-box col-md-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
-          <img src="img/idea.png">
-          <h3>UI/UX Design</h3>
-          <p>Familiar with visual hierarchy through various UI/UX projects and research</p>
+          <div class=" col-6 col-sm-6 col-md-4 col-lg-4 previewimage"><div class="backgroundinteraction4"><img src="img/covid-dash-background-mobile.png"></div></div>
+          
+      </div>
+  </div>
+</section>
+
+    <!-- Display grid on desktop-->
+    <div class="container featured-work displayblock">
+        <h2 class="left"><span>Featured Projects</span></h2>
+        <div class="row g-0 work-grid" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-6 col-sm-6 col-md-8 col-lg-8 previewimage" id="backgroundinteraction2">
+            <div class="backgroundinteraction2">
+                <video autoplay="" loop="" muted="" playsinline="">
+                    <source src="img/sdsi.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
-        <div class="skill-box col-md-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
-          <img src="img/prototype.png">
-          <h3>Prototyping</h3>
-          <p>Experience with low to high fidelity wireframing and prototyping in Figma and Adobe XD</p>
+        <div class="col-6 col-sm-6 col-md-4 col-lg-4 top-right">
+          <div class="previewimage"><div class="backgroundinteraction7"><img src="img/flowershop-placeholder 1.png"></div></div>
+          <div class="previewimage">
+              <div class="backgroundinteraction1">
+                  <video autoplay="" loop="" muted="" playsinline="" class="">
+                      <source src="img/eco-life.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-4 bottom-left">
+        <div class="previewimage"><div class="backgroundinteraction6"><img src="img/dx-group.png"></div></div>
+        <div class="previewimage">
+            <div class="backgroundinteraction3">
+                <video autoplay="" loop="" muted="" playsinline="">
+                    <source src="img/designhelp.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-sm-6 col-md-8 col-lg-8 previewimage" id="backgroundinteraction4">    
+      <div class="backgroundinteraction4"><img src="img/covid-dash-background.png"></div>
+    </div>
+        </div>
+        <div class="btn-center">
+          <a href="work.html" class="btn-main">View All Projects</a>
         </div>
       </div>
 
-    </section>
-
-    <section class="project-view container">
-      <div class="flex row"> 
-        <div class="col-md-7" data-aos="fade-up" data-aos-duration="1000">
-          <img src="img/ecolife.png">
+    <section class="skill container-fluid">
+      <div class="container">
+        <h2 class="left-dark"><span>Featured Skills</span></h2>
+        <div class="flex">
+          <div class="skill-box col-md-4" data-aos="zoom-in" data-aos-duration="500">
+            <img src="img/code.svg">
+            <h3>Coding</h3>
+            <p>Knowledgable in HTML/CSS and a background in various programming languages</p>
+          </div>
+          <div class="skill-box col-md-4" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+            <img src="img/idea.svg">
+            <h3>UI/UX Design</h3>
+            <p>Familiar with visual hierarchy through various UI/UX projects and research</p>
+          </div>
+          <div class="skill-box col-md-4" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
+            <img src="img/prototype.svg">
+            <h3>Prototyping</h3>
+            <p>Experience with low to high fidelity wireframing and prototyping in Figma and Adobe XD</p>
+          </div>
         </div>
-        
-        <div class="project-view-text col-md-5">
-          <h2>Take a look at my <span class="pink">projects</span></h2>
-          <a href="work.html" class="btn-main">View my projects</a>
+        <div class="btn-center">
+          <a href="experience.html" class="btn-main-light">View Experience</a>
         </div>
       </div>
-      
     </section>
 
-    <section class="form container-fluid">
+    <section class="form container-fluid" id="contact">
       <div class="flex">
         <div class="form-text col-md-5"> 
-          <h1>Lets<span><img src="img/light-Smile.png"></span></h1>
-          <h1>Get in Touch!</h1>
-          <a class="wavy" href="mailto:emilyyha222gmail.com">emilyyha22@gmail.com</a>
+          
+          <h2>Lets Get in Touch!</h2>
+          <a class="wavy" href="mailto:emily.ha@uconn.edu">emily.ha@uconn.edu</a>
         </div>
         <div class="col-md-7">
           <form action="https://formspree.io/emilyyha22@gmail.com" method="POST">
@@ -142,6 +209,7 @@
             <br>
             <label>Your message</label>
             <br>
+            
             <button type="submit">Submit</button>
           </form>
         </div>
@@ -149,9 +217,10 @@
     </section>
 
     <section class="footer">
-      <p>Coded and Designed by Emily Ha</p>
+      <p>Design and development by Emily Ha</p>
     </section>
 
+    <script src="js/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
