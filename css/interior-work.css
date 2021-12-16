@@ -17,6 +17,10 @@
        object-fit: cover;
 }
 
+.interior-header#likeminds{
+    background-image: url('/img/likeminds/likeminds-desktop.png');
+}
+
 .interior-header#ecolife{
     background-image: url('/img/ecolife/smartphone-mockup.png');
 }
@@ -62,6 +66,9 @@
         -o-object-fit: cover;
            object-fit: cover;
     }
+    .interior-header#likeminds{
+        background-image: url('/img/likeminds/likeminds-tablet.png');
+    }
 
     .interior-header#ecolife{
         background-image: url('/img/ecolife/smartphone-mockup-tablet.png');
@@ -95,6 +102,10 @@
         -o-object-fit: cover;
            object-fit: cover;
         background-size: cover;
+    }
+
+    .interior-header#likeminds{
+        background-image: url('/img/likeminds/likeminds-mobile.png');
     }
 
     .interior-header#ecolife{
