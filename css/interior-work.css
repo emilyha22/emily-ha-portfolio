@@ -18,8 +18,7 @@
 }
 
 .interior-header#likeminds{
-    background: url("/img/likeminds/likeminds-desktop.png");
-    background-position: center;
+    background-image: url("/likeminds-desktop.png");
 }
 
 .interior-header#ecolife{
