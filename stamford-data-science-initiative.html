@@ -30,70 +30,111 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="index.html">Home</a></button>
-          </li>
-          <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="projects.html">Projects</a></button>
-          </li>
-          <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="experience.html">Experience</a></button>
-          </li>
-          <li class="nav-item">
-            <button class="nav-btn"><a class="nav-link" href="index.html#contact">Contact</a></button>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resunme.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
     <!-- Back to top button -->
     <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-      <i class="fas fa-arrow-up"></i>
-      </button>
-      
-    <section class="interior-header container">
-        <div class="interior-video" data-aos="fade-down" data-aos-duration="1000">
-          <video autoplay="" loop="" muted="" playsinline="" class="">
-              <source src="img/sdsi.mp4" type="video/mp4">
-          </video>
-        </div>
-        <h1 data-aos="fade-up" data-aos-duration="1000">Stamford Data Science Initiative</h1>
-        <a href="https://stamforddatascience.com/index.html" target="_blank" rel="noreferrer noopener" class="btn-main" data-aos="fade-up" data-aos-duration="1000">View Website</a>
-    </section>
+    <i class="fas fa-arrow-up"></i>
+    </button>
 
-    <section class="focus container-fluid">
-        <div class="row justify-content-center">
-            <div class="focus-sec col-md-3">
-                <img class="focus-img" src="img/responsive.png">
-                <h3>Responsive Web Design</h3>
-            </div>
-            <div class="focus-sec col-md-3">
-                <img class="focus-img" src="img/accessibility.png">
-                <h3>Web Accessibility</h3>
-            </div>
-            <div class="focus-sec col-md-3">
-                <img class="focus-img" src="img/code.png">
-                <h3>HTML, CSS, & Javascript</h3>
+    <section class="interior-header" id="sdsi">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-text">
+                    <h1 data-aos="fade-up" data-aos-duration="1000">Stamford Data Science Initiative</h1>
+                    <p>User interface design built for the Stamford Data Science Initiative</p>
+                </div>
+
             </div>
         </div>
     </section>
 
     <section class="interior-block container">
-        <h3>Why this project?</h3>
-        <p>Under the DX Group, I was able to create a fully responsive website for UConn’s Stamford Data Science Initiative using HTML/CSS/JS. Although this website is still an ongoing process, the first phase was launched rather quickly and recived lots of positive feedback. The DX Group will continue working with the Stamford Data Science Initiative to add more content to the website. </p>
+        <h2>About this project</h2>
+        <div class="row listings">
+            <div class="col-md-3">
+                <p class="subtitle">Role</p>
+                <p>Ideation, Visuals, Prototyping</p>
+            </div>
+            <div class="col-md-3">
+                <p class="subtitle">Tools Used</p>
+                <p>HTML, CSS, JS, Bootstrap, Figma, Adobe Illustrator</p>
+            </div>
+            <div class="col-md-3">
+                <p class="subtitle">Type</p>
+                <p>Responsive Website</p>
+            </div>
+            <div class="col-md-3">
+                <p class="subtitle">Date Completed</p>
+                <p>June 2021, in progress</p>
+            </div>
+
+        </div>
+        <p>The Stamford Data Science Initiative is a partnership between UConn, CTNext, and StamfordNext. Their objective is to enhance the existing entrepreneurial and research ecosystem around data science. In order to reach more people interested in entrepreneurship and research, their goal was to launch a fully responsive website with their content.</p>
+        <p>Working with the Digital Experience Group, I was able to lead UI design and development and launch the website in an agile approach.</p>
+        <br>
+        <figure class="figure task-img">
+          <video autoplay="" loop="" muted="" playsinline="" alt="Video of stamford data science home page animation">
+            <source src="img/sdsi.mp4" type="video/mp4">
+          </video>
+          <figcaption class="figure-caption">Stamford Data Science Initiative homepage interactive animation</figcaption>
+        </figure>
+      </section>
+
+    <section class="interior-block container-fluid">
+      <div class="container">
+          <h3>Design Process</h3>
+          <p>Branding was provided to the Digital Experience Group by a brand designer from the Stamford Data Science Initiative. I was responsible for incorporating their branding into the new UI design. I used the branding to craft four high fidelity prototypes each with a different look and feel. Of these four, the SDSI team decided on the light design which is currently live. </p>
+          <figure class="figure task-img">
+            <img src="img/sdsi/SDSI-Brand.png" class="figure-img img-fluid" alt="Branding for the Stamford Data Science Initiative">
+            <figcaption class="figure-caption">Branding for the Stamford Data Science Initiative</figcaption>
+          </figure>
+          <p>During the design process, it was noted by the SDSI team that the site were to be modern and cutting edge. As a part of UConn, this would distinguish them from many other organizations under the institution, which was their goal.</p>      
+      </div>
+  </section>
+
+    <section class="interior-block container-fluid">
+      <div class="container">
+          <h3>Development Process</h3>
+          <p>After the UI had been finalized for the home and interior pages it was time to build the first batch of pages following the agile methodology. The site was built in HTML, CSS, and Javascript in order to accommodate the customizations needed. With the help of Bootstrap, the layout was built fairly easy and is able to be scaled in many different devices.</p>
+          <p>The site is still growing and will continue to its next phase in which more interactive elements will be added.</p>      
+      </div>
     </section>
 
+    <section class="interior-block container-fluid">
+      <div class="container">
+          <h3>Conclusion</h3>
+          <p>After the UI had been finalized for the home and interior pages it was time to build the first batch of pages following the agile methodology. The site was built in HTML, CSS, and Javascript in order to accommodate the customizations needed. With the help of Bootstrap, the layout was built fairly easy and is able to be scaled in many different devices.</p>
+          <figure class="figure task-img">
+            <img src="img/sdsi/186.png" class="figure-img img-fluid" alt="Multiple screenshots of pages from the Stamford Data Science Initiative website">
+            <figcaption class="figure-caption">Screenshots from the Stamford Data Science Initiative website</figcaption>
+          </figure>
+      </div>
+    </section>
 
     <section class="footer">
       <p>Coded and Designed by Emily Ha</p>
     </section>
-
 
     <script src="js/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

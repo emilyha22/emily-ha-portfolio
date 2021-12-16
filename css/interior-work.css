@@ -2,27 +2,154 @@
     background-color: white;
 }
 
-.interior-header {
-    text-align: center;
-    margin-top: 50px;
+.interior-header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    align-items: center;
 }
 
+.interior-header#sdsi{
+    background-image: url('/img/sdsi/186-overlay.png');
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.interior-header#ecolife{
+    background-image: url('/img/ecolife/smartphone-mockup.png');
+}
+
+.interior-header#solar{
+    background-image: url('/img/solar/solar-mockup.png');
+}
+
+.interior-header#covid{
+    background-image: url('/img/covid/covid-mockup.png');
+}
+
+.interior-header#dx{
+    background-image: url('/img/dx-group/dx-mockup.png');
+}    
+
+.interior-header#vs{
+    background-image: url('/img/vs/OS971A1.png');
+}    
+
+
 .interior-header h1{
-    color: #1d1f20;
-    font-size: 50px;
-    font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    padding-top: 60px;
+    color: white;
 }
 
 .interior-header img{
-    max-width: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.interior-header .col-text{
+    order: 2;
+}
+
+.interior-header p{
+    color: white;
+}
+
+@media (max-width:991px){
+    .interior-header#sdsi{
+        background-image: url('/img/sdsi/186-overlay-tablet.png');
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+    .interior-header#ecolife{
+        background-image: url('/img/ecolife/smartphone-mockup-tablet.png');
+    }
+
+    .interior-header#solar{
+        background-image: url('/img/solar/solar-mockup-tablet.png');
+    }
+
+    .interior-header#covid{
+        background-image: url('/img/covid/covid-mockup-tablet.png');
+    }    
+
+    .interior-header#dx{
+        background-image: url('/img/dx-group/dx-mockup-mobile-tablet.png');
+    }   
+
+    .interior-header#vs{
+        background-image: url('/img/vs/OS971A1-tablet.png');
+    }   
+
+    .interior-header{
+        padding: 60px 0px 60px 0px;
+        height: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .interior-header#sdsi{
+        background-image: url('/img/sdsi/186-overlay-mobile.png');
+        -o-object-fit: cover;
+           object-fit: cover;
+        background-size: cover;
+    }
+
+    .interior-header#ecolife{
+        background-image: url('/img/ecolife/smartphone-mockup-mobile.png');
+    }
+
+    .interior-header#solar{
+        background-image: url('/img/solar/solar-mockup-mobile.png');
+    }
+
+    .interior-header#covid{
+        background-image: url('/img/covid/covid-mockup-mobile.png');
+    }    
+
+    .interior-header#dx{
+        background-image: url('/img/dx-group/dx-mockup-mobile.png');
+    }  
+    
+    .interior-header#vs{
+        background-image: url('/img/vs/OS971A1-mobile.png');
+    }  
+
+    .interior-header{
+        padding: 60px 0px 60px 0px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 991px){
+    .interior-header{
+        padding: 100px 0px 100px 0px;
+        height: 550px;
+        margin: 0px 15px;
+    }
 }
 
 @media (min-width: 768px){
-    .interior-header img{
-        width: 700px;
+    .interior-header p{
+        width: 80%;
     }
+
+    .interior-header .col-text{
+        order: 0;
+    }
+}
+
+p.subtitle {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.listings {
+    margin: 50px 0px;
 }
 
 .focus{
@@ -50,7 +177,8 @@
 }
 
 .interior-block{
-    padding: 80px 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .interior-block .tight-li li{
@@ -64,31 +192,22 @@
 }
 
 .interior-block p.bold{
-font-weight: 500;
+font-weight: 600;
 text-align: center;
-margin-top: 30px;
 }
 
 .interior-block h3{
     color: #1c2020;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.interior-block-2 h3{
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    text-align: right;
-}
-
-.interior-block-2 .row{
+.interior-block-2{
 background-color: whitesmoke;
+padding: 70px 0px;
 }
 
-.black-box {
-    background-color: #1c2020;
-    padding: 90px 30px 30px 100px;
+.gray-box{
+    background-color: whitesmoke;
 }
 
 .quote-box{
@@ -101,13 +220,13 @@ background-color: whitesmoke;
     background-color: whitesmoke;
 }
 
-.task-img img{
+.task-img img, .task-img video{
     max-width: 75%;
-    
 }
 
 .task-img{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin:30px 0px;
@@ -123,6 +242,7 @@ background-color: whitesmoke;
     max-width: 95%;
 }
 
-.interior-video video{
-    width: 700px;
+.interior-block video{
+    width: 100%
 }
+
