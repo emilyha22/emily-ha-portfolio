@@ -12,7 +12,7 @@
 }
 
 .interior-header#sdsi{
-    background-image: url('/img/sdsi/186-overlay.png');
+    background-image: url('../img/sdsi/186-overlay.png');
     -o-object-fit: cover;
        object-fit: cover;
 }
@@ -22,23 +22,23 @@
 }
 
 .interior-header#ecolife{
-    background-image: url('/img/ecolife/smartphone-mockup.png');
+    background-image: url('../img/ecolife/smartphone-mockup.png');
 }
 
 .interior-header#solar{
-    background-image: url('/img/solar/solar-mockup.png');
+    background-image: url('../img/solar/solar-mockup.png');
 }
 
 .interior-header#covid{
-    background-image: url('/img/covid/covid-mockup.png');
+    background-image: url('../img/covid/covid-mockup.png');
 }
 
 .interior-header#dx{
-    background-image: url('/img/dx-group/dx-mockup.png');
+    background-image: url('../img/dx-group/dx-mockup.png');
 }    
 
 .interior-header#vs{
-    background-image: url('/img/vs/OS971A1.png');
+    background-image: url('../img/vs/OS971A1.png');
 }    
 
 
@@ -62,32 +62,32 @@
 
 @media (max-width:991px){
     .interior-header#sdsi{
-        background-image: url('/img/sdsi/186-overlay-tablet.png');
+        background-image: url('../img/sdsi/186-overlay-tablet.png');
         -o-object-fit: cover;
            object-fit: cover;
     }
     .interior-header#likeminds{
-        background-image: url(/img/likeminds/likeminds-tablet.png);
+        background-image: url('../img/likeminds/likeminds-tablet.png');
     }
 
     .interior-header#ecolife{
-        background-image: url('/img/ecolife/smartphone-mockup-tablet.png');
+        background-image: url('../img/ecolife/smartphone-mockup-tablet.png');
     }
 
     .interior-header#solar{
-        background-image: url('/img/solar/solar-mockup-tablet.png');
+        background-image: url('../img/solar/solar-mockup-tablet.png');
     }
 
     .interior-header#covid{
-        background-image: url('/img/covid/covid-mockup-tablet.png');
+        background-image: url('../img/covid/covid-mockup-tablet.png');
     }    
 
     .interior-header#dx{
-        background-image: url('/img/dx-group/dx-mockup-mobile-tablet.png');
+        background-image: url('../img/dx-group/dx-mockup-mobile-tablet.png');
     }   
 
     .interior-header#vs{
-        background-image: url('/img/vs/OS971A1-tablet.png');
+        background-image: url('../img/vs/OS971A1-tablet.png');
     }   
 
     .interior-header{
@@ -98,34 +98,34 @@
 
 @media (max-width:768px){
     .interior-header#sdsi{
-        background-image: url('/img/sdsi/186-overlay-mobile.png');
+        background-image: url('../img/sdsi/186-overlay-mobile.png');
         -o-object-fit: cover;
            object-fit: cover;
         background-size: cover;
     }
 
     .interior-header#likeminds{
-        background-image: url(/img/likeminds/likeminds-mobile.png);
+        background-image: url('../img/likeminds/likeminds-mobile.png');
     }
 
     .interior-header#ecolife{
-        background-image: url('/img/ecolife/smartphone-mockup-mobile.png');
+        background-image: url('../img/ecolife/smartphone-mockup-mobile.png');
     }
 
     .interior-header#solar{
-        background-image: url('/img/solar/solar-mockup-mobile.png');
+        background-image: url('../img/solar/solar-mockup-mobile.png');
     }
 
     .interior-header#covid{
-        background-image: url('/img/covid/covid-mockup-mobile.png');
+        background-image: url('../img/covid/covid-mockup-mobile.png');
     }    
 
     .interior-header#dx{
-        background-image: url('/img/dx-group/dx-mockup-mobile.png');
+        background-image: url('../img/dx-group/dx-mockup-mobile.png');
     }  
     
     .interior-header#vs{
-        background-image: url('/img/vs/OS971A1-mobile.png');
+        background-image: url('../img/vs/OS971A1-mobile.png');
     }  
 
     .interior-header{
